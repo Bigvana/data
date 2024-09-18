@@ -42,7 +42,16 @@ background-color: black;
 opacity: 0.3;
 z-index: 1;
 }
-
+.live-label {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
 .btn {
     border-radius: 30px;
 }
@@ -54,14 +63,4 @@ header {
 header video {
     /* display: none; */
 }
-}
-.live-label {
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    background-color: red;
-    color: white;
-    padding: 5px 10px;
-    border-radius: 5px;
-    font-weight: bold;
 }
