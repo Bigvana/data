@@ -1,14 +1,4 @@
 
-
-
-
-.live-stream {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    display: block;
-}
-
 .live-label {
     position: absolute;
     top: 10px;
